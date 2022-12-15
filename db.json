@@ -1,0 +1,31 @@
+{
+    "menus":[
+        {
+          "id": "1",
+          "dish": "Seafood",
+          "description": "Distinct food dishes which use fish, shellfish or seaweed as primary ingredients, served with ugali or rice",
+          "image": "seafood.jpeg"
+        },
+        {
+            "id": "2",
+            "dish": "drinks",
+            "description": "A twist on one of Kenyan favourite cocktails using mezcal",
+            "image": "drinkss.jpeg"
+        },
+        {
+            "id": "3",
+            "dish": "fish",
+            "description": "Fried fish with ugali and vegetable to rock your day",
+            "image": "fish.jpeg"
+        },
+        
+        {
+            "id": "4",
+            "dish": "cake",
+            "description": "Cake decorations with detailed course covers 10 cake decorating techniques for buttercream cakes",
+            "image": "cake1.jpeg"
+        }
+      ]
+    
+    
+}
