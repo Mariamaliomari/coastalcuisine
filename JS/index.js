@@ -1,7 +1,13 @@
+fetch("https://miriam-db-production.up.railway.app/menus")
+.then(response =>{
+  return response.json()
 
-
-
-
+  
+}).then(data => {
+  console.log(data)
+  let fish = document.querySelector("#fish")
+  fish.src= data[0].image
+})
 
 const API = ("https://miriam-db-production.up.railway.app/menus")
 document.addEventListener('DOMContentLoaded', () =>{
