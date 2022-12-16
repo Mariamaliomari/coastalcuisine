@@ -4,26 +4,26 @@
           "id": "1",
           "dish": "Seafood",
           "description": "Distinct food dishes which use fish, shellfish or seaweed as primary ingredients, served with ugali or rice",
-          "image": "seafood.jpeg"
+          "image": "https://e7.pngegg.com/pngimages/70/31/png-clipart-crab-seafood-pungency-wok-spicy-stir-fried-crab-culture-food-thumbnail.png"
         },
         {
             "id": "2",
             "dish": "drinks",
             "description": "A twist on one of Kenyan favourite cocktails using mezcal",
-            "image": "drinkss.jpeg"
+            "image": "https://www.freepnglogos.com/uploads/drinks-png/drinks-life-and-off-the-guest-list-vote-for-your-favorite-19.png"
         },
         {
             "id": "3",
             "dish": "fish",
             "description": "Fried fish with ugali and vegetable to rock your day",
-            "image": "fish.jpeg"
+            "image": "https://p.kindpng.com/picc/s/554-5548744_fish-fry-png-transparent-fried-fish-png-png.png"
         },
         
         {
             "id": "4",
             "dish": "cake",
             "description": "Cake decorations with detailed course covers 10 cake decorating techniques for buttercream cakes",
-            "image": "cake1.jpeg"
+            "image": "https://w7.pngwing.com/pngs/664/140/png-transparent-birthday-cake-cupcake-chocolate-cake-cream-food-happy-birthday-to-you-thumbnail.png"
         }
       ]
     

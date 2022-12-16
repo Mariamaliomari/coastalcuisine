@@ -1,16 +1,33 @@
-// const API = ("http://localhost:3000/menus")
-// document.addEventListener('DOMContentLoaded', () =>{
 
-// })
 
-// const enroll = document.getElementById('enroll');
 
-// function clickAlert() {
-//   alert('Join us now!');
-// }
-// enroll.addEventListener('click', clickAlert);
 
-// const receiveMenu = getElementById("menus")
-// menus.addEventListener('submit',function (event){
-// event.preventDefault()
-// })
+
+const API = ("https://miriam-db-production.up.railway.app/menus")
+document.addEventListener('DOMContentLoaded', () =>{
+
+
+    const enroll = document.getElementById('enroll');
+    enroll.addEventListener('click', clickAlert);
+    
+    function clickAlert() {
+      alert('Join us now!');
+    }
+
+function emailSubmit(event){
+  log.Content = `Email submitted Time Stamp: ${event.timeStamp}`;
+  event.preventDefault();
+}
+const email=
+document.getElementsByClassName("btn");
+email.addEventListener(`submit, emailSubmit`)  
+emailSubmit()  
+})
+
+
+
+
+
+
+
+  
