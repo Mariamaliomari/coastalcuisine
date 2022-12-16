@@ -14,17 +14,17 @@ document.addEventListener('DOMContentLoaded', () =>{
       alert('Join us now!');
     }
 
-function emailSubmit(event){
-  log.Content = `Email submitted Time Stamp: ${event.timeStamp}`;
-  event.preventDefault();
-}
-const email=
-document.getElementsByClassName("btn");
-email.addEventListener(`submit, emailSubmit`)  
-emailSubmit()  
-})
-
-
+    function emailSubmit(event){
+      log.Content = `Email submitted Time Stamp: ${event.timeStamp}`;
+      event.preventDefault();
+    }
+    const email=
+    document.getElementsByClassName("btn");
+    email.addEventListener(`submit, emailSubmit`)  
+    emailSubmit()  
+    })
+    
+    
 
 
 
