@@ -3,7 +3,15 @@ fetch("https://miriam-db-production.up.railway.app/menus")
   return response.json()
 
   
+}).then(data => {
+  let ids= ["cake","drinks","fish","Seafood"]
+  data.forEach(element => {
+    let classes =ids.find(cl=> cl=== element.dish)
+    let image= document.querySelector(`#${classes}`)
+    image.src= element.image
+  });
 
+})
 
 
 
