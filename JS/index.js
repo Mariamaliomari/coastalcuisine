@@ -26,6 +26,12 @@ document.addEventListener('DOMContentLoaded', () =>{
     function clickAlert() {
       alert('Join us now!');
     }
+    const signUp = document.querySelector('#btn');
+    signUp.addEventListener('click', clickAlert);
+    
+    function clickAlert() {
+      alert('We are glad that you signed up for our menus!');
+    }
 
     function emailSubmit(event){
       console.log(`Email submitted Time Stamp: ${event.timeStamp}`) ;
