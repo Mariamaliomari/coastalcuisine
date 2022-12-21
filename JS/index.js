@@ -3,17 +3,16 @@ fetch("https://miriam-db-production.up.railway.app/menus")
   return response.json()
 
   
-}).then(data => {
-  console.log(data)
-  let fish = document.querySelector("#fish")
-  fish.src= data[0].image
-})
+
+
+
+
 
 const API = ("https://miriam-db-production.up.railway.app/menus")
 document.addEventListener('DOMContentLoaded', () =>{
 
-
-    const enroll = document.getElementById('enroll');
+// enroll
+    const enroll = document.querySelector('#enroll');
     enroll.addEventListener('click', clickAlert);
     
     function clickAlert() {
@@ -21,13 +20,13 @@ document.addEventListener('DOMContentLoaded', () =>{
     }
 
     function emailSubmit(event){
-      log.Content = `Email submitted Time Stamp: ${event.timeStamp}`;
+      console.log(`Email submitted Time Stamp: ${event.timeStamp}`) ;
       event.preventDefault();
     }
     const email=
-    document.getElementsByClassName("btn");
-    email.addEventListener(`submit, emailSubmit`)  
-    emailSubmit()  
+    document.getElementById("btn");
+    email.addEventListener(`click`, emailSubmit)  
+     
     })
     
     

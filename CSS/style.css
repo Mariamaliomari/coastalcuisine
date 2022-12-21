@@ -3,6 +3,34 @@ body::before {
     content: '';
     height: 60px;
   }
-body{ background-color: azure;
-    
+
+   h1{
+color: midnightblue;
+
+   } 
+
+#fish{
+  width: 150px;
+  height: 250px;
+  
+}
+#cake{
+  width: 150px;
+  height: 250px;
+}
+#drink{
+  width: 150px;
+  height: 250px;
+}
+#karisa{
+  width: 150px;
+  height: 170px;
+}
+#amina{
+  width: 150px;
+  height: 170px;
+}
+#kelvin{
+  width: 150px;
+  height: 195px;
 }

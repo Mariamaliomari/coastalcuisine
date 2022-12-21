@@ -18,13 +18,20 @@
             "description": "Fried fish with ugali and vegetable to rock your day",
             "image": "https://p.kindpng.com/picc/s/554-5548744_fish-fry-png-transparent-fried-fish-png-png.png"
         },
-        
         {
             "id": "4",
+            "dish": "swahili biriani",
+            "description": "Special swahili biriani to rock your day Classes availale on Fridays",
+            "image": "https://i.pinimg.com/736x/29/20/4c/29204c808ca7c1701d6da6111e739ade.jpg"
+        },
+        
+        {
+            "id": "5",
             "dish": "cake",
             "description": "Cake decorations with detailed course covers 10 cake decorating techniques for buttercream cakes",
             "image": "https://w7.pngwing.com/pngs/664/140/png-transparent-birthday-cake-cupcake-chocolate-cake-cream-food-happy-birthday-to-you-thumbnail.png"
         }
+    
       ]
     
     
