@@ -34,3 +34,9 @@ color: midnightblue;
   width: 150px;
   height: 195px;
 }
+.nav-link:hover {
+  color: red;
+  }
+  #enroll:hover{
+    background-color:red;
+  }
